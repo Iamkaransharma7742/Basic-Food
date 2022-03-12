@@ -1,0 +1,12 @@
+header{
+    height: 72px;
+}
+main{
+    min-height: 1500px;
+}
+footer{
+    height: 600px;
+}
+.k_tbdr{
+    border: 1px dashed black;
+}
