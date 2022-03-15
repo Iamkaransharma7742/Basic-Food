@@ -38,6 +38,15 @@ form button:hover{
     color: blue;
     background-color: rgb(244, 244, 245);
 }
-k_main{
-    margin-top: 300px;
+.k_main{
+    padding-top: 200px;
+}
+.k_login{
+    padding-top: 30px;
+    border: 1px solid #000;
+    background-color: rgb(163, 161, 161);
+    height: 600px;
+}
+.k_lhead{
+    text-decoration: underline;
 }
