@@ -10,7 +10,7 @@ main{
     min-height: 1200px;
 }
 .carousel{
-    margin-left: 320px;
+    margin-left: 330px;
     width: 500px;
 }
 footer{
@@ -45,10 +45,6 @@ form button:hover{
 .k_main{
     padding-top: 200px;
     margin-bottom: 200px;
-    background-image: url('./img/img.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 .k_log{
     margin-top: 50px;
