@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icons" href="./assets/images/logo-png.png" type="image/icon">
+    <title>Signup Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: rgb(219, 238, 238);
+        }
+        form{
+            margin: 80px 380px;
+            background: white;
+            box-shadow: 0 20px 20px black;
+            border-radius: 30px;
+            width: 600px;
+            padding: 20px 60px 30px 60px;
+            text-align: center;
+        }
+        form::shadow{
+            color: black;
+        }
+        .btn{
+            width: 200px;
+            height: 30px;
+            background-color: rgb(156, 151, 151);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Sign Up</h1><br>
+        <div>
+            <label for="first_name">First Name :
+            <input type="text" id="first_name" placeholder="First_Name">
+            </label>
+        </div><br>
+        <div>
+            <label for="last_name">Last Name :
+            <input type="text" id="last_name" placeholder="Last_Name">
+            </label>
+        </div><br>
+        <div>
+            <label for="email">Email Id :
+            <input type="email" id="email" placeholder="name@example.com">
+            </label>
+        </div><br>
+        <div>
+            <label for="mobile_no">Mobile No.:
+            <input type="number" id="mobile_no" placeholder="1234567890">
+            </label>
+        </div><br>
+        <div>
+            <label for="address">Address :
+            <input type="text" id="address" placeholder="Address">
+            </label>
+        </div><br>
+        <div>
+            <label for="password">Password :
+            <input type="password" id="password" placeholder="Password">
+            </label>
+        </div><br>
+        <div>
+            <label for="password">Re-Password :
+            <input type="password" id="password" placeholder="Password">
+            </label>
+        </div><br>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="terms&conditions"> I accept the <a href="#">Terms of Service</a>
+            </label>
+        </div><br>
+        <div>
+            <p>If you already member <a href="./login.html">Login Now</a></p>
+        </div><br>
+        <button class="btn" type="submit">Signup</button>
+    </form>
+</body>
+</html>
